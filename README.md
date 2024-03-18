@@ -5,20 +5,20 @@ Implement a PostgreSQL database using the following schema:
 
 * Table name: `students`
 * Fields:
-  * `student_id`: Integer, Primary Key, Auto-increment
-  * `first_name`: Text, Not Null
-  * `last_name`: Text, Not Null
-  * `email`: Text, Not Null, Unique
-  * `enrollment_date`: Date
+  * `student_id`: integer, primary key, auto-increment
+  * `first_name`: text, Not null
+  * `last_name`: text, not null
+  * `email`: text, not null, unique
+  * `enrollment_date`: date
 
 ### Demo
-Insert video here!!!
+[![](https://markdown-videos-api.jorgenkh.no/youtube/{p5DYedniOHQ})](https://youtu.be/{p5DYedniOHQ})
 
 ### Setup and Usage
 1. Launch pgAdmin4.
 2. Create a database called `assignment3`.
 3. Right-click on `assignment3` and select `Query Tool`.
-4. Run the following query (can download `assignment3.sql` and run it instead):
+4. Run the following query (query can be downloaded via `assignment3.sql`):
     ```
    CREATE TABLE students (
        student_id         SERIAL,
@@ -35,7 +35,7 @@ Insert video here!!!
    ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
    ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
    ```
-5. Open the folder `a3q1` in IntelliJ.
+5. Clone the repository and open it in IntelliJ.
 6. Update the `URL`, `USER`, and `PASSWORD` variables on lines 13, 18, and 23 of `Main.java` as necessary.
 7. Run the main method in `Main.java`.
 
