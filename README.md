@@ -12,7 +12,8 @@ Implement a PostgreSQL database using the following schema:
   * `enrollment_date`: date
 
 ### Demo
-[![](https://markdown-videos-api.jorgenkh.no/youtube/{p5DYedniOHQ})](https://youtu.be/{p5DYedniOHQ})
+
+A demo of this system can be found at the following YouTube link: [https://youtu.be/p5DYedniOHQ](https://youtu.be/p5DYedniOHQ).
 
 ### Setup and Usage
 1. Launch pgAdmin4.
